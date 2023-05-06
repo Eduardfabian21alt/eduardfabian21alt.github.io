@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>MAIN INDEX!</title>
-   </head>
-   <body>
-<h1>Selectați</h1>
-      <form action="ratbv.ro" method="get" target="_blank">
-         <button type="submit">Brasov</button>
-<form action="stbsa.ro" method="get" target="_blank">
-         <button type="submit">Bucuresti</button>
-      </form>
-   </body>
+<body>
+
+<h2>Selectati</h2>
+<button onclick="ratbv()">Brasov</button>
+<button onclick="stb()">Bucuresti</button>
+<button onclick="tursib()">Sibiu</button>
+
+<script>
+function ratbv() {
+  location.replace("https://ratbv.ro")
+}
+function stb() {
+  location.replace("https://stbsa.ro")
+}
+function tursib() {
+  location.replace("https://tursib.ro")
+}
+</script>
+</body>
 </html>
+
