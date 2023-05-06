@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>MAIN!</title>
-   </head>
-   <body>
-<h1>Select (MOST OF THE WEBSITES ARE IN ROMANIA, THE BRASOV OPTION HAVES TO SELECT THE LANG)</h1>
-      <form action="Ratbv.ro" method="get" target="_blank">
-         <button type="submit">Brasov</button>
-<form action="stbsa.ro" method="get" target="_blank">
-         <button type="submit">București</button>
-      </form>
-   </body>
+<body>
+
+<h2>Select (most of the websites can be put in english)</h2>
+<button onclick="ratbv()">Brasov</button>
+<button onclick="stb()">Bucharest</button>
+<button onclick="tursib()">Sibiu</button>
+
+<script>
+function ratbv() {
+  location.replace("https://ratbv.ro")
+}
+function stb() {
+  location.replace("https://stbsa.ro")
+}
+function tursib() {
+  location.replace("https://tursib.ro")
+}
+</script>
+</body>
 </html>
